@@ -1,0 +1,132 @@
+.nav-link{
+    color: #707070 !important;
+}
+.container{
+    max-width: 1120px !important;
+}
+.btn-common{
+    background-color: #B68C5A !important;
+    color: #FFFFFF;
+}
+.btn-common:hover{
+    background-color: #8d6c43 !important;
+    color: #FFFFFF;
+}
+/* .custom-height{
+    height: 450px;
+} */
+.legal{
+margin-top: 120px !important;
+}
+.common-paragraph{
+    padding: 10px 220px !important;
+}
+.legal-wrap{
+    margin-top: 65px !important;
+}
+.btn-common{
+    background: #B68C5A;
+}
+.banner{
+    background: linear-gradient(to top, #111111 0%, rgba(17, 17, 17, 0) 100%),url("./images/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.slider img{
+    border-radius: 10px;
+    height: 500px;
+  
+}
+
+.slider-des{
+    margin-bottom: auto;
+}
+.slider-des > img{
+  width: 80px;
+  height: 80px !important;
+}
+.custome-legal{
+    box-shadow: -5px -4px 76px -28px rgb(20 39 50 / 50%);
+}
+.client{
+    margin-top: 100px;
+}
+.m-common{
+    margin-top: 100px !important;
+}
+
+.contact-form input, textarea{
+    width: 100%;
+    outline: none;
+    border: 0;
+    background-color: antiquewhite;
+    padding: 20px;
+
+}
+.contact-form button[type="submit"]{
+    width: 100%;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    
+
+}
+.email{
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+}
+.submit-btn{
+    padding:15px 24px;
+   
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    position: relative;
+    left: -10px;
+}
+footer{
+    background-color: #111111 ;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:570px) {
+    .common-paragraph{
+        padding: 10px !important;
+    }
+    .slider img{
+        border-radius: 10px;
+        height: 300px;
+    }
+    .slider-des{
+        margin-bottom: 0;
+    }
+    .review{
+     font-size: 10px;
+    }
+    .email{
+        width: 70%;
+        padding: 15px;
+        border-radius: 5px;
+        border: 0;
+        outline: none;
+    }
+}
+
+
+
+
+
